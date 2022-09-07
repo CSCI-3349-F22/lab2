@@ -39,7 +39,7 @@ Then type ``jupyter notebook`` to launch.
 ### Part 3: Getting to the ``lab2.ipynb`` jupyter notebook
 You should now see a browser window that looks like the one below. If you typed ```jupyter notebook``` from this directory to launch jupyter, you will see the contents of this directory. Click on ```Lab2.ipynb```, which will open the notebook where you will complete the lab.
 
-<img src="jupy.png" width=200>
+<img src="jupy.png" width=400>
 
 If you typed the command from a different directory, or if you launched jupyter from Anaconda Navigator, you'll have to click on folders in the browser window until you get to this directory. Then click on ```lab2.ipynb```, which will open the notebook where you will complete the lab.
 
