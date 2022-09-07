@@ -41,9 +41,9 @@ You should now see a browser window that looks like the one below. If you typed 
 
 <img src="jupy.png" width=400>
 
-If you typed the command from a different directory, or if you launched jupyter from Anaconda Navigator, you'll have to click on folders in the browser window until you get to this directory. Then click on ```lab2.ipynb```, which will open the notebook where you will complete the lab.
+If you typed the command from a different directory, or if you launched jupyter from Anaconda Navigator, you'll have to click on folders in the browser window to navigate to this directory. Then click on ```Lab2.ipynb```, which will open the notebook where you will complete the lab.
 
 ### Part 4: Complete the lab
-The notebook describe exactly what you need to do! You add, commit, and push your version of the notebook along with anything else the lab requires to this repo as your submission for Lab 2.
+The notebook describes exactly what you need to do! You will add, commit, and push your version of the notebook along with anything else the lab requires to this repo as your submission for Lab 2.
 
 **This assignment is due Wednesday, 9/14 @11:59pm EDT**
