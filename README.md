@@ -11,18 +11,20 @@ Depending on how you installed Python 3.9 and what you have done before, it's po
 * With Anaconda: Anaconda has a library manager within the Anaconda navigator that you can use to install these libraries. Alternatively, you can install them with the conda package manager from the command line, like so:
 
 ```conda install -c anaconda nltk```
+
 ```conda install -c conda-forge spacy```
 
 * Without Anaconda: You can just use pip, like so
 
 ```python3.9 -m pip install nltk```
+
 ```python3.9 -m pip install spacy```
 
 ### Part 2: Make sure you can launch jupyter notebook *within Python 3.9*.
 
-* With Anaconda: If you have Anaconda with Python 3.9, then you most likely have jupyter already. You can launch jupyter notebook in one of two ways. (1) Launch Anaconda Navigator, then click the Jupyter Notebook launch button. ~OR~ (2) If you installed Anaconda recently, its version of jupyter should be the one you can launch from a command line. Open a terminal, and type ``which jupyter``. If the path it prints out includes the word "Anaconda" and "3.9" it in somewhere, you should also be able to launch jupyter notebook with Python 3.9 just by typing ```jupyter notebook``` at the command line.
+* With Anaconda: If you have Anaconda with Python 3.9, then you most likely have jupyter already. You can launch jupyter notebook in one of two ways. (1) Launch Anaconda Navigator, then click the Jupyter Notebook launch button. **OR** (2) If you installed Anaconda recently, its version of jupyter should be the one you can launch from a command line. Open a terminal, and type ``which jupyter``. If the path it prints out includes the word "Anaconda" and "3.9" it in somewhere, you should also be able to launch jupyter notebook with Python 3.9 just by typing ```jupyter notebook``` at the command line.
 
-* With pip: If you installed Python 3.9 not using Anaconda, you might not have jupyter already, unless you installed yourself for something else. Open a terminal and type
+* Without Anaconda: If you installed Python 3.9 not using Anaconda, you might not have jupyter already, unless you installed yourself for something else. Open a terminal and type
 
 ```which jupyter```
 
@@ -32,4 +34,14 @@ If it doesn't give you back anything or if it gives you back a path that's not t
 
 ```python3 -m pip install jupyter```
 
+Then type ``jupyter notebook`` to launch.
 
+### Part 3: Getting to the ``lab2.ipynb`` jupyter notebook
+You should now see a browser window that looks like the one below. If you yped ```jupyter notebook``` from this directory to launch jupyter, you will see the contents of this directory. Click on ```lab2.ipynb```, which will open the notebook where you will complete the lab.
+
+If you typed the command from a different directory, or if you launched jupyter from Anaconda Navigator, you'll have to click on folders in the browser window until you get to this directory. Then click on ```lab2.ipynb```, which will open the notebook where you will complete the lab.
+
+### Part 4: Complete the lab
+The notebook describe exactly what you need to do! You add, commit, and push your version of the notebook along with anything else the lab requires to this repo as your submission for Lab 2.
+
+**This assignment is due Wednesday, 9/14 @11:59pm EDT**
