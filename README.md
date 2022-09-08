@@ -30,7 +30,7 @@ Depending on how you installed Python 3.9 and what you have done before, it's po
 
 If it gives you a path back that's the same as you get if you type ```which python3```, you are good to go!  Type ``jupyter notebook`` to launch.
 
-If it doesn't give you back anything or if it gives you back a path that's not the same as ```which python3```, then you'll need to (re)install it, like so. (Again, you can  just use ``pip3``, but make sure that ``pip3`` goes with your versio of Python 3.9.)
+If it doesn't give you back anything or if it gives you back a path that's not the same as ```which python3```, then you'll need to (re)install it, like so. (Again, you can  just use ``pip3``, but make sure that ``pip3`` goes with your version of Python 3.9.)
 
 ```python3.9 -m pip install jupyter```
 
@@ -56,6 +56,7 @@ If you have trouble with the ``nltk.download()`` code block in the notebook, try
 1. Launch a terminal and type python3 to get an interactive shell. Alternatively, launch Anaconda, then use the interactive shell.
 
 2. Type
+
 ```import nltk```
 
 ```nltk.download_shell()```
