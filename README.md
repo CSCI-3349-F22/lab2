@@ -51,7 +51,9 @@ Once you have launched jupyter notebook, you should  see a browser window that l
 If you typed the command from a different directory, or if you launched jupyter from Anaconda Navigator, you'll have to click on folders in the browser window to navigate to this directory. Then click on ```Lab2.ipynb```, which will open the notebook where you will complete the lab.
 
 ### Part 4: Complete the lab
-The notebook describes exactly what you need to do! You will add, commit, and push your version of the notebook along with anything else the lab requires to this repo as your submission for Lab 2.
+The notebook describes exactly what you need to do! You will add, commit, and push your version of the filled-in notebook along with anything else the lab requires to this repo as your submission for Lab 2.
+
+*Note: Although jupyter notebook runs in a web browser, it is not actually "on" the internet. It's still just on your computer! You don't need to be connected to the internet to use a jupyter notebook since everything is happening locally. It is just presented to you in your browser.*
 
 **This assignment is due Wednesday, 9/14 @11:59pm EDT**
 
