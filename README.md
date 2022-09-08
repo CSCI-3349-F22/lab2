@@ -15,11 +15,15 @@ Depending on how you installed Python 3.9 and what you have done before, it's po
 
 ### Part 1: Install nltk and spaCy for your Python 3.9
 
-**With Anaconda:** Anaconda has a GUI library manager within the Anaconda navigator that you can use to install these libraries. You can probably just point and click your way through that, or you can Google how to do it. Alternatively, you should be able to install the libraries with the conda package manager from the command line, like so:
+**With Anaconda:** Anaconda has a GUI library manager within the Anaconda navigator that you can use to install these libraries. You can probably just point and click your way through that, or you can Google how to do it. I recently installed Anaconda on my Mac, and nltk was already installed. A TA had trouble using the package manager to install spaCy, so your mileage may vary. 
+
+Alternatively, you should be able to install the libraries with the conda package manager from the command line, like so:
 
 ```conda install -c anaconda nltk```
 
 ```conda install -c conda-forge spacy```
+
+A TA also had trouble with `conda`, so if that doesn't work, you might have luck using `pip3`, as described below.
 
 **Without Anaconda:** You can just use pip, like so. (You can just use ``pip3``, but I like to use ``python3 -m pip`` so I can be 100% sure that I am installing the libraries for the verion of Python I plan to use.)
 
