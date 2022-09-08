@@ -3,7 +3,7 @@
 ---
 
 ### REMINDER
-**First**, clone this repo down to your own machine. Here's how: (1) Click the green `Code` button. (2) Make sure HTTPs is underlined, then click the copy icon. (3) Launch a terminal, and type ``git clone`` then paste in what you copied in step 2. **Next,** finish reading this README file to complete your environment setup. **Finally,** complete the lab in the jupyter notebook on your own computer, as described below.
+**First**, clone this repo down to your own machine. Here's how: (1) Click the green `Code` button. (2) Make sure HTTPs is underlined, then click the copy icon. (3) Launch a terminal, and type ``git clone`` then paste in what you copied in step 2. **Next,** finish reading this README file to complete your environment setup. **Finally,** complete the lab in the jupyter notebook on your own computer, as described below. When you're done you'll add, commit, and push your notebook to your repo.
 
 ---
 
