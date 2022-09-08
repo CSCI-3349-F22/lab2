@@ -1,5 +1,12 @@
 # Lab 2: nltk and spaCy
 
+---
+
+### REMINDER
+**First**, clone this repo down to your own machine. Here's how: (1) Click the green `Code` button. (2) Make sure HTTPs is underlined, then click the copy icon. (3) Launch a terminal, and type ``git clone`` then paste in what you copied in step 2. **Next,** finish reading this README file to complete your environment setup. **Finally,** complete the lab in the jupyter notebook on your own computer, as described below.
+
+---
+
 In this lab, you'll be learning how to use the nltk library to carry out text normalization and do some basic text analysis. At the very end, you'll use a different library, spaCy, which will allow you to do much of this normalization in a more streamlined but less transparent way. 
 
 The lab will be entirely contained within a jupyter notebook. If you have never used one before, don't worry! This lab will walk you through using jupyter.
