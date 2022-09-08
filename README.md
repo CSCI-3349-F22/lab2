@@ -37,7 +37,7 @@ If it doesn't give you back anything or if it gives you back a path that's not t
 Then type ``jupyter notebook`` to launch.
 
 ### Part 3: Getting to the ``lab2.ipynb`` jupyter notebook
-You should now see a browser window that looks like the one below. If you typed ```jupyter notebook``` from this directory to launch jupyter, you will see the contents of this directory. Click on ```Lab2.ipynb```, which will open the notebook where you will complete the lab.
+Once you have launched jupyter notebook, you should  see a browser window that looks like the one below. If you typed ```jupyter notebook``` from this directory to launch jupyter, you will see the contents of this directory. Click on ```Lab2.ipynb```, which will open the notebook where you will complete the lab.
 
 <img src="jupy.png" width=400>
 
@@ -47,3 +47,17 @@ If you typed the command from a different directory, or if you launched jupyter 
 The notebook describes exactly what you need to do! You will add, commit, and push your version of the notebook along with anything else the lab requires to this repo as your submission for Lab 2.
 
 **This assignment is due Wednesday, 9/14 @11:59pm EDT**
+
+
+---
+
+If you have trouble with the ``nltk.download()`` code block in the notebook, try this:
+
+1. Launch a terminal and type python3 to get an interactive shell. Alternatively, launch Anaconda, then use the interactive shell.
+
+2. Type
+```import nltk```
+
+```nltk.download_shell()```
+
+This will allow you to download packages without the GUI. You should first select `d` for download and then type `popular`.
