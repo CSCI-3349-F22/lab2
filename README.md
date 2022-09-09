@@ -47,7 +47,7 @@ If it doesn't give you back anything or if it gives you back a path that's not t
 
 Then type ``jupyter notebook`` to launch.
 
-### Part 3: Getting to the ``lab2.ipynb`` jupyter notebook
+### Part 3: Getting to the ``Lab2.ipynb`` jupyter notebook
 Once you have launched jupyter notebook, you should  see a browser window that looks like the one below. If you typed ```jupyter notebook``` from this directory to launch jupyter, you will see the contents of this directory. Click on ```Lab2.ipynb```, which will open the notebook where you will complete the lab.
 
 <img src="jupy.png" width=400>
